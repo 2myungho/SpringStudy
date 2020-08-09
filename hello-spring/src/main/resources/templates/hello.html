@@ -1,5 +1,5 @@
 <!doctype html>
-<html xmlns:th= "http://www.thymeleaf.org"> <!--타임리프 문법을 템플릿 엔진으로 사용할 수 있음.-->
+<html xmlns:th= "http://www.thymeleaf.org"> <!--Thymeleaf 문법을 템플릿 엔진으로 사용할 수 있음.-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -13,7 +13,12 @@
 </html>
 
 <!--
+    MVC중 view이다.
     컨트롤러에서 리턴 값으로 문자를 반환하면 뷰 리졸버가 화면을 찾아서 처리한다.
-    resources:templates/ + {ViewName} + .html
+    resources:templates/ + {ViewName(hello)} + .html
     ViewName이 hello로 바뀌어서 열린다.
+    MVC : model view controller
+    model : 필요한 view만 담아서 화면에 전달
+    view는 화면에 보이는 것만
+    controller는 서버 뒷단에 관련된 것
 -->
